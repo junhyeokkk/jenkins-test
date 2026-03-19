@@ -7,6 +7,6 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN npx tsc
 
 CMD ["node", "dist/index.js"]
